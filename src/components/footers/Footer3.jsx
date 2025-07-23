@@ -72,7 +72,7 @@ export default function Footer3() {
   return (
     <footer
       id="footer"
-      className="footer-default footer-bg xl-pb-70 bg-dark-green-4"
+      className="footer-default footer-bg xl-pb-70 bg-brown-1"
     >
       <div className="footer-top">
         <div className="container">
@@ -82,7 +82,7 @@ export default function Footer3() {
                 <img
                   className="logo"
                   alt="logo"
-                  src="/images/logo/logo-white.svg"
+                  src="/images/logo/eves24.png"
                   width={148}
                   height={44}
                 />
@@ -127,10 +127,13 @@ export default function Footer3() {
           <div className="row-footer">
             <div className="footer-col-block s1">
               <div className="footer-heading footer-heading-mobile text-xl fw-medium">
-                Business Contact
+                Contact
               </div>
               <div className="tf-collapse-content">
                 <div className="footer-contact">
+                  <div className="footer-heading footer-heading-mobile text-md fw-medium text-uppercase">
+                    For Information
+                  </div>
                   <ul className="footer-info">
                     <li className="item">
                       <span className="box-icon">
@@ -175,6 +178,28 @@ export default function Footer3() {
                       </span>
                       <a href="tel:18888383022">(64) 8342 1245</a>
                     </li>
+                  </ul>
+                  <div className="footer-heading footer-heading-mobile text-md fw-medium text-uppercase">
+                    For Information
+                  </div>
+                  <ul className="footer-info">
+                    <li className="item">
+                      <span className="box-icon">
+                        <svg
+                          width={14}
+                          height={14}
+                          viewBox="0 0 14 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M11.6666 9.4091L10.9841 8.4641C10.7324 8.12417 10.3574 7.89649 9.93972 7.82996C9.522 7.76343 9.09484 7.86335 8.74998 8.10827L8.09081 8.59243C7.13399 7.73698 6.36526 6.69214 5.83331 5.5241L6.49248 5.04577C6.837 4.79478 7.06794 4.41741 7.13464 3.99641C7.20135 3.5754 7.09838 3.14513 6.84831 2.79993L6.18331 1.86077C5.93339 1.51663 5.55703 1.28582 5.13698 1.21909C4.71693 1.15236 4.28757 1.25518 3.94331 1.50493L2.91664 2.23993C2.58681 2.47798 2.33009 2.80349 2.17547 3.17972C2.02086 3.55595 1.9745 3.96792 2.04164 4.3691C2.33803 6.09644 3.02915 7.73206 4.06118 9.14856C5.0932 10.5651 6.43827 11.7242 7.99164 12.5358C8.30603 12.696 8.65376 12.78 9.00664 12.7808C9.46814 12.7804 9.91756 12.6333 10.29 12.3608L11.3108 11.6666C11.4837 11.5428 11.6302 11.3858 11.7419 11.2048C11.8535 11.0238 11.9281 10.8224 11.9612 10.6123C11.9943 10.4023 11.9853 10.1877 11.9347 9.98113C11.8842 9.77457 11.793 9.58012 11.6666 9.4091ZM10.7975 10.9433L9.78248 11.6666C9.58631 11.8098 9.35413 11.8954 9.11199 11.914C8.86984 11.9325 8.62732 11.8832 8.41164 11.7716C6.97557 11.0225 5.73227 9.95129 4.779 8.6418C3.82572 7.33231 3.18832 5.82004 2.91664 4.22327C2.87745 3.98261 2.90577 3.73579 2.99846 3.51026C3.09114 3.28473 3.24455 3.08933 3.44164 2.94577L4.45664 2.21077C4.6131 2.09841 4.80765 2.05252 4.99783 2.08312C5.188 2.11373 5.35834 2.21833 5.47164 2.3741L6.15998 3.3191C6.27119 3.47659 6.31717 3.67098 6.28831 3.8616C6.27352 3.95579 6.24012 4.04608 6.19004 4.12721C6.13996 4.20834 6.07421 4.27867 5.99664 4.3341L5.05164 5.02243C4.97248 5.07857 4.91486 5.16007 4.88834 5.25342C4.86182 5.34678 4.86798 5.44639 4.90581 5.53577C5.52168 7.06896 6.5077 8.42575 7.77581 9.48493C7.85256 9.54453 7.94697 9.57689 8.04414 9.57689C8.14132 9.57689 8.23573 9.54453 8.31248 9.48493L9.25748 8.80243C9.41322 8.68947 9.60729 8.64263 9.79741 8.67214C9.98754 8.70164 10.1583 8.80508 10.2725 8.95993L10.9608 9.9166C11.072 10.0741 11.118 10.2685 11.0891 10.4591C11.0752 10.5552 11.0422 10.6475 10.9921 10.7306C10.942 10.8137 10.8759 10.886 10.7975 10.9433Z"
+                            fill="#0D0D0D"
+                          />
+                        </svg>
+                      </span>
+                      <a href="tel:18888383022">(64) 8342 1245</a>
+                    </li>
                     <li className="item">
                       <span className="box-icon">
                         <svg
@@ -193,81 +218,67 @@ export default function Footer3() {
                       support@example.com
                     </li>
                   </ul>
+                  <div className="footer-heading footer-heading-mobile text-sm fw-medium ">
+                    11am to 8pm (Mon-Sat) <br /> (Excluding National Holidays)
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="footer-inner-wrap footer-col-block s2">
-              <div className="footer-heading footer-heading-mobile text-xl fw-medium">
-                Subscribe Newsletter
+            <div className="footer-inner-wrap footer-col-block s2 s4">
+              <div className="footer-col-block inner-col">
+                <div className="footer-heading footer-heading-mobile text-xl fw-medium">
+                  Customer Service
+                </div>
+                <div className="tf-collapse-content">
+                  <ul className="footer-menu-list">
+                    <li>
+                      <Link to={`/about-us`}>About Us</Link>
+                    </li>
+                    <li>
+                      <Link to={`/contact-us`}>Contact Us</Link>
+                    </li>
+                    <li>
+                      <Link to={`/store-location`}>Our Story</Link>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div className="tf-collapse-content">
-                <div className="footer-newsletter">
-                  <p>
-                    We invite you to register to read the latest news, offers
-                    and events about our company. We promise not spam your
-                    inbox.
-                  </p>
-                  <div
-                    className={`tfSubscribeMsg  footer-sub-element ${
-                      showMessage ? "active" : ""
-                    }`}
-                  >
-                    {success ? (
-                      <p style={{ color: "rgb(52, 168, 83)" }}>
-                        You have successfully subscribed.
-                      </p>
-                    ) : (
-                      <p style={{ color: "red" }}>Something went wrong</p>
-                    )}
-                  </div>
-                  <form
-                    id="subscribe-form"
-                    onSubmit={(e) => {
-                      e.preventDefault();
-                      sendEmail(e);
-                    }}
-                    className="form-newsletter"
-                  >
-                    <div className="subscribe-content">
-                      <fieldset className="email">
-                        <input
-                          type="email"
-                          name="email"
-                          className="subscribe-email"
-                          placeholder="Email address"
-                          tabIndex={0}
-                          aria-required="true"
-                          required
-                        />
-                      </fieldset>
-                      <div className="button-submit">
-                        <button
-                          className="subscribe-button animate-btn"
-                          type="submit"
-                        >
-                          <svg
-                            width={18}
-                            height={18}
-                            viewBox="0 0 18 18"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <g clipPath="url(#clip0_5296_3345)">
-                              <path
-                                d="M17.7938 8.50229L17.7931 8.50162L14.1192 4.84537C13.8439 4.57147 13.3988 4.57249 13.1248 4.84776C12.8508 5.123 12.8519 5.56818 13.1271 5.84212L15.5938 8.29687H0.703125C0.314789 8.29687 0 8.61166 0 9C0 9.38833 0.314789 9.70312 0.703125 9.70312H15.5938L13.1272 12.1579C12.8519 12.4318 12.8509 12.877 13.1248 13.1522C13.3988 13.4275 13.844 13.4285 14.1192 13.1546L17.7932 9.49837L17.7938 9.4977C18.0692 9.22285 18.0683 8.77623 17.7938 8.50229Z"
-                                fill="white"
-                              />
-                            </g>
-                            <defs>
-                              <clipPath id="clip0_5296_3345">
-                                <rect width={18} height={18} fill="white" />
-                              </clipPath>
-                            </defs>
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </form>
+
+              <div className="footer-col-block inner-col">
+                <div className="footer-heading footer-heading-mobile text-xl fw-medium">
+                  Partner With Us
+                </div>
+                <div className="tf-collapse-content">
+                  <ul className="footer-menu-list">
+                    <li>
+                      <Link to={`/about-us`}>About Us</Link>
+                    </li>
+                    <li>
+                      <Link to={`/contact-us`}>Contact Us</Link>
+                    </li>
+                    <li>
+                      <Link to={`/store-location`}>Our Story</Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="footer-col-block inner-col">
+                <div className="footer-heading footer-heading-mobile text-xl fw-medium">
+                  Shop With Confident
+                </div>
+                <div className="tf-collapse-content">
+                  <ul className="footer-menu-list">
+                    <li>
+                      <Link to={`/about-us`}>About Us</Link>
+                    </li>
+                    <li>
+                      <Link to={`/contact-us`}>Contact Us</Link>
+                    </li>
+                    <li>
+                      <Link to={`/store-location`}>Our Story</Link>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -292,7 +303,7 @@ export default function Footer3() {
               </div>
               <div className="footer-col-block inner-col">
                 <div className="footer-heading footer-heading-mobile text-xl fw-medium">
-                  Resource
+                  Know Your Jewels
                 </div>
                 <div className="tf-collapse-content">
                   <ul className="footer-menu-list">
@@ -332,8 +343,8 @@ export default function Footer3() {
         <div className="container">
           <div className="footer-bottom-wrap">
             <p>
-              Copyright © 2025 by <span className="fw-medium">Vineta.</span> All
-              Rights Reserved.
+              Copyright © 2025 by <span className="fw-medium">Eves24.</span> All
+              Rights Reserved. Crafted By Web Techneeq
             </p>
             <div className="box-right">
               <Link to={`/privacy-policy`}>Privacy Policy</Link>

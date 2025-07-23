@@ -662,16 +662,6 @@ export const largeRecentPosts = [
 ];
 export const blogPosts7 = [
   {
-    id: 67,
-    image: "/images/blog/blog-10.jpg",
-    author: "Admin",
-    date: "Jan 21, 2025",
-    comments: "03 Comments",
-    title: "The Art of the Handmade: Why Craft Still Matters",
-    description:
-      "Collaboration is at the heart of what we do. From understanding your goals to delivering tailored solutions...",
-  },
-  {
     id: 68,
     image: "/images/blog/blog-11.jpg",
     author: "Vineta",

@@ -478,7 +478,7 @@ function App() {
         <DbSidebar />
       </Context>
       <ScrollTop />
-      <RtlToggler />
+
       <ScrollTopBehaviour />
     </>
   );

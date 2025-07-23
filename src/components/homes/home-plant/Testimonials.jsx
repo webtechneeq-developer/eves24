@@ -28,7 +28,7 @@ export default function Testimonials() {
   return (
     <section className="flat-spacing-3">
       <div className="container">
-        <div className="flat-wrapper-testimonial bg-dark-green-4">
+        <div className="flat-wrapper-testimonial bg-brown">
           <img
             className="img-item-1 absolute"
             alt=""

@@ -30,7 +30,7 @@ export default function Header1({
               <img
                 alt="logo"
                 className="logo"
-                src="/images/logo/logo.svg"
+                src="/images/logo/eves24.png"
                 width={148}
                 height={44}
               />
@@ -54,7 +54,7 @@ export default function Header1({
                   <i className="icon icon-search" />
                 </a>
               </li>
-              <li className="nav-account">
+              {/* <li className="nav-account">
                 <a
                   href="#login"
                   data-bs-toggle="offcanvas"
@@ -85,7 +85,7 @@ export default function Header1({
                     <CartLength />
                   </span>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

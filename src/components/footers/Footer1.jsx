@@ -89,7 +89,7 @@ export default function Footer1({
                 <img
                   className="logo"
                   alt="logo"
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/eves24.png"
                   width={148}
                   height={44}
                 />
@@ -344,89 +344,15 @@ export default function Footer1({
         <div className="container">
           <div className="footer-bottom-wrap">
             <p className="text-dark">
-              Copyright © 2025 by <span className="fw-medium">Vineta.</span> All
-              Rights Reserved.
+              Copyright © 2025 by <span className="fw-medium">Eves24.</span> All
+              Rights Reserved. Crafted By Web Techneeq
             </p>
             <ul className="tf-payment">
               <li className="item">
-                <img
-                  alt="payment"
-                  src="/images/payment/EximBank.png"
-                  width={80}
-                  height={50}
-                />
+                <p>Privacy Policy</p>
               </li>
               <li className="item">
-                <img
-                  alt="payment"
-                  src="/images/payment/ApplePay.png"
-                  width={90}
-                  height={64}
-                />
-              </li>
-              <li className="item">
-                <img
-                  alt="payment"
-                  src="/images/payment/DinersClub.png"
-                  width={90}
-                  height={64}
-                />
-              </li>
-              <li className="item">
-                <img
-                  alt="payment"
-                  src="/images/payment/Discover.png"
-                  width={80}
-                  height={50}
-                />
-              </li>
-              <li className="item">
-                <img
-                  alt="payment"
-                  src="/images/payment/GooglePay.png"
-                  width={90}
-                  height={64}
-                />
-              </li>
-              <li className="item">
-                <img
-                  alt="payment"
-                  src="/images/payment/Mastercard-2.png"
-                  width={80}
-                  height={50}
-                />
-              </li>
-              <li className="item">
-                <img
-                  alt="payment"
-                  src="/images/payment/Mastercard.png"
-                  width={90}
-                  height={64}
-                />
-              </li>
-              <li className="item">
-                <img
-                  alt="payment"
-                  src="/images/payment/Shop.png"
-                  width={80}
-                  height={50}
-                />
-              </li>
-              <li className="item">
-                <img
-                  alt="payment"
-                  src="/images/payment/UnionPay.png"
-                  width={80}
-                  height={50}
-                />
-              </li>
-              <li className="item">
-                <img
-                  alt="payment"
-                  src="/images/payment/Visa.png"
-                  width={90}
-                  height={64}
-                />
+                <p>Terms of Use</p>
               </li>
             </ul>
           </div>

@@ -36,9 +36,9 @@ export default function Nav() {
           } `}
         >
           Home
-          <i className="icon icon-arr-down" />
+          {/* <i className="icon icon-arr-down" /> */}
         </a>
-        <div className="sub-menu mega-menu mega-home">
+        {/* <div className="sub-menu mega-menu mega-home">
           <div className="box-search">
             <div className="tf-select">
               <select name="pagetype" id="pagetype">
@@ -108,7 +108,7 @@ export default function Nav() {
               <i className="icon icon-arr-right" />
             </a>
           </div>
-        </div>
+        </div> */}
       </li>
       <li className="menu-item">
         <a
@@ -117,10 +117,10 @@ export default function Nav() {
             isMenuParentActive2(shopPages) ? "menuActive" : ""
           }`}
         >
-          Shop
-          <i className="icon icon-arr-down" />
+          Why Choose Us
+          {/* <i className="icon icon-arr-down" /> */}
         </a>
-        <div className="sub-menu mega-menu mega-shop">
+        {/* <div className="sub-menu mega-menu mega-shop">
           <div className="wrapper-sub-menu">
             {shopPages.map((menuItem, index) => (
               <div className="mega-menu-item" key={index}>
@@ -146,7 +146,7 @@ export default function Nav() {
             ))}
           </div>
           <Collections />
-        </div>
+        </div> */}
       </li>
       <li className="menu-item">
         <a
@@ -155,10 +155,10 @@ export default function Nav() {
             isMenuParentActive2(productMenuItems) ? "menuActive" : ""
           } `}
         >
-          Products
-          <i className="icon icon-arr-down" />
+          Diamond Jewellery
+          {/* <i className="icon icon-arr-down" /> */}
         </a>
-        <div className="sub-menu mega-menu mega-product">
+        {/* <div className="sub-menu mega-menu mega-product">
           <div className="wrapper-sub-menu">
             {productMenuItems.map((menuItem, index) => (
               <div className="mega-menu-item" key={index}>
@@ -192,7 +192,7 @@ export default function Nav() {
           <div className="wrapper-sub-product">
             <NavProducts />
           </div>
-        </div>
+        </div> */}
       </li>
       <li className="menu-item position-relative">
         <a
@@ -201,10 +201,10 @@ export default function Nav() {
             isMenuParentActive(otherPages) ? "menuActive" : ""
           }  `}
         >
-          Pages
-          <i className="icon icon-arr-down" />
+          Benefits
+          {/* <i className="icon icon-arr-down" /> */}
         </a>
-        <div className="sub-menu sub-menu-style-2">
+        {/* <div className="sub-menu sub-menu-style-2">
           <ul className="menu-list">
             {otherPages.slice(0, 8).map((item, index) => (
               <li key={index}>
@@ -250,7 +250,7 @@ export default function Nav() {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </li>
       <li className="menu-item position-relative">
         <a
@@ -259,10 +259,10 @@ export default function Nav() {
             isMenuParentActive(blogMenuItems) ? "menuActive" : ""
           }  `}
         >
-          Blog
-          <i className="icon icon-arr-down" />
+          Testimonial
+          {/* <i className="icon icon-arr-down" /> */}
         </a>
-        <div className="sub-menu sub-menu-style-3">
+        {/* <div className="sub-menu sub-menu-style-3">
           <ul className="menu-list">
             {blogMenuItems.map((item, index) => (
               <li key={index}>
@@ -305,11 +305,11 @@ export default function Nav() {
               ))}
             </ul>
           </div>
-        </div>
+        </div> */}
       </li>
       <li className="menu-item">
         <a href="https://themeforest.net/user/themesflat" className="item-link">
-          Buy Theme!
+          Visit Us
         </a>
       </li>
     </>
