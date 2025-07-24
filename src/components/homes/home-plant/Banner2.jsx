@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Banner2() {
   return (
-    <section className="flat-spacing-3">
+    <section className="flat-spacing-3 bg-yellow-1">
       <div className="container">
         <div className="s3-banner-with-text">
           <div className="content-with-text wow fadeInUp">
@@ -21,7 +21,7 @@ export default function Banner2() {
             </div>
             <Link
               to={`/shop-default`}
-              className="tf-btn btn-orange animate-btn"
+              className="tf-btn bg-brown-14 animate-btn border-0"
             >
               Shop Collection
             </Link>

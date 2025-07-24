@@ -274,11 +274,13 @@
     .img-item-1 {
         right: 0px;
         top: 40px;
+        rotate: -130deg;
         animation: swing 10s infinite ease-in-out;
     }
     .img-item-2 {
         left: 16px;
         bottom: 30px;
+        rotate: 50deg;
         animation: swing 10s infinite ease-in-out;
     }
     .sw-dot-default {

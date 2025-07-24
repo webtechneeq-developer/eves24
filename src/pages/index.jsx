@@ -8,6 +8,7 @@ import Blogs from "@/components/homes/home-handcraft/Blogs";
 import Categories from "@/components/homes/home-1/Categories";
 import Collections from "@/components/homes/home-handcraft/Collections";
 import Features from "@/components/homes/home-plant/Features";
+import Features2 from "@/components/otherPages/Features2";
 import Hero from "@/components/homes/home-handcraft/Hero";
 import Products from "@/components/homes/home-plant/Products";
 import Products1 from "@/components/homes/home-handcraft/Products1";
@@ -17,15 +18,17 @@ import Testimonials from "@/components/homes/home-plant/Testimonials";
 import Newsletter from "@/components/modals/Newsletter";
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title: "Home || Vineta - Multipurpose Reactjs eCommerce Template",
-  description: "Vineta - Multipurpose Reactjs eCommerce Template",
+  title:
+    "Real Diamond Jewellery, Bridal Diamond Jewellery, Wedding Diamond Jewellery Mumbai",
+  description:
+    "Real Diamond Jewellery, Bridal Diamond Jewellery, Wedding Diamond Jewellery Mumbai",
 };
 
 export default function HomePage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar4 parentClass="tf-topbar bg-brown-1 topbar-bg marquee-topbar" />
+      <Topbar4 parentClass="tf-topbar bg-brown topbar-bg marquee-topbar" />
       <Header1 />
       <Hero />
       <Features />
@@ -33,7 +36,7 @@ export default function HomePage() {
       <Products1 />
       <Collections />
       <Testimonials />
-      <Blogs />
+      <Features2 />
       <Footer3 />
       <Newsletter />
     </>

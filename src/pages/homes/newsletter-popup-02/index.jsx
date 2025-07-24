@@ -15,8 +15,10 @@ import Testimonials from "@/components/homes/home-1/Testimonials";
 import Newsletter3 from "@/components/modals/NewsLetterModal3";
 import MetaComponent from "@/components/common/MetaComponent";
 const metadata = {
-  title: "Home || Vineta - Multipurpose Reactjs eCommerce",
-  description: "Vineta - Multipurpose Reactjs eCommerce",
+  title:
+    "Real Diamond Jewellery, Bridal Diamond Jewellery, Wedding Diamond Jewellery Mumbai",
+  description:
+    "Real Diamond Jewellery, Bridal Diamond Jewellery, Wedding Diamond Jewellery Mumbai",
 };
 
 export default function NewsletterPopup2Page() {
