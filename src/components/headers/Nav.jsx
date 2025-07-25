@@ -371,7 +371,7 @@ export default function Nav() {
         <a
           href="#"
           className={`item-link  ${
-            isMenuParentActive(blogMenuItems) ? "menuActive" : ""
+            isMenuParentActive(LoyaltyMenuItems) ? "menuActive" : ""
           }  `}
         >
           Loyalty
