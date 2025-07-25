@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Nav from "./Nav";
+import Nav from "./Nav.jsx";
 import { Link } from "react-router-dom";
 import CartLength from "../common/CartLength";
 import WishlistLength from "../common/WishlistLength";
