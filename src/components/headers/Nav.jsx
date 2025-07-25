@@ -312,6 +312,116 @@ export default function Nav() {
           Visit Us
         </a>
       </li>
+      <li className="menu-item position-relative">
+        <a
+          href="#"
+          className={`item-link  ${
+            isMenuParentActive(blogMenuItems) ? "menuActive" : ""
+          }  `}
+        >
+          Blog
+          {/* <i className="icon icon-arr-down" /> */}
+        </a>
+        {/* <div className="sub-menu sub-menu-style-3">
+          <ul className="menu-list">
+            {blogMenuItems.map((item, index) => (
+              <li key={index}>
+                <Link
+                  to={item.href}
+                  className={`menu-link-text link  ${
+                    isMenuActive(item) ? "menuActive" : ""
+                  } `}
+                >
+                  {item.text}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="wrapper-sub-blog">
+            <div className="menu-heading">Recent Posts</div>
+            <ul className="list-recent-blog">
+              {recentBlogPosts.map((post, index) => (
+                <li className="item" key={index}>
+                  <Link to={`/blog-single/${post.id}`} className="img-box">
+                    <img
+                      alt={post.alt}
+                      src={post.imageSrc}
+                      width={post.width}
+                      height={post.height}
+                    />
+                  </Link>
+                  <div className="content">
+                    <Link
+                      to={`/blog-single/${post.id}`}
+                      className="fw-medium text-sm link title"
+                    >
+                      {post.title}
+                    </Link>
+                    <span className="text-xxs text-grey date-post">
+                      {post.date}
+                    </span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div> */}
+      </li>
+      <li className="menu-item position-relative">
+        <a
+          href="#"
+          className={`item-link  ${
+            isMenuParentActive(LoyaltyMenuItems) ? "menuActive" : ""
+          }  `}
+        >
+          Loyalty
+          {/* <i className="icon icon-arr-down" /> */}
+        </a>
+        {/* <div className="sub-menu sub-menu-style-3">
+          <ul className="menu-list">
+            {blogMenuItems.map((item, index) => (
+              <li key={index}>
+                <Link
+                  to={item.href}
+                  className={`menu-link-text link  ${
+                    isMenuActive(item) ? "menuActive" : ""
+                  } `}
+                >
+                  {item.text}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="wrapper-sub-blog">
+            <div className="menu-heading">Recent Posts</div>
+            <ul className="list-recent-blog">
+              {recentBlogPosts.map((post, index) => (
+                <li className="item" key={index}>
+                  <Link to={`/blog-single/${post.id}`} className="img-box">
+                    <img
+                      alt={post.alt}
+                      src={post.imageSrc}
+                      width={post.width}
+                      height={post.height}
+                    />
+                  </Link>
+                  <div className="content">
+                    <Link
+                      to={`/blog-single/${post.id}`}
+                      className="fw-medium text-sm link title"
+                    >
+                      {post.title}
+                    </Link>
+                    <span className="text-xxs text-grey date-post">
+                      {post.date}
+                    </span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div> 
+        </div> */}
+      </li>
     </>
   );
 }
